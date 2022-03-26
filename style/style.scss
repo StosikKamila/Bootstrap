@@ -1,0 +1,18 @@
+body{
+    background-color: #abf5bf;
+    border-style: solid;
+    border-color: red;
+    border-width: 10px;
+  }
+
+
+  @mixin test($size) {
+      border: $size solid #000;
+      font-size: $size!important;
+      padding: $size;
+  }
+  form div{
+      &:nth-child(1){@include test(10px);}
+      &:nth-child(2){@include test(1em);}
+      &:nth-child(3){@include test(2em);}
+  }
