@@ -1,8 +1,12 @@
 body {
   background-color: #abf5bf;
   border-style: solid;
-  border-color: red;
+  border-color: #F89090;
   border-width: 10px;
+}
+
+.form-check-input {
+  margin-left: 4px !important;
 }
 
 form div:nth-child(1) {

@@ -1,7 +1,7 @@
 body{
     background-color: #abf5bf;
     border-style: solid;
-    border-color: red;
+    border-color: #F89090;
     border-width: 10px;
   }
 
@@ -11,6 +11,8 @@ body{
       font-size: $size!important;
       padding: $size;
   }
+
+  .form-check-input{margin-left: 4px!important;}
   form div{
       &:nth-child(1){@include test(10px);}
       &:nth-child(2){@include test(1em);}
